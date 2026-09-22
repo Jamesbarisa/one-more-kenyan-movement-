@@ -1,3 +1,23 @@
+/* High-contrast section palette */
+.departments{background:#123c3a;color:#f7f4e9}
+.departments .section-label,.department-heading p,.department-row p{color:#c6d8d0}
+.departments .section-label i,.department-list,.department-row{border-color:rgba(247,244,233,.28)}
+.departments h2 em,.department-row h3 em{color:#e6f06b}
+.department-row:hover{background:#e6f06b;color:#123c3a}
+.department-row:hover p,.department-row:hover h3 em,.department-row:hover .dept-index{color:#123c3a}
+.dept-index{color:#d4e4a3}
+.admin-panel{background:#f1bd55;color:#162522}
+.admin-panel .section-label{color:#4d3410}
+.admin-panel .section-label i{background:rgba(22,37,34,.35)}
+.admin-heading p{color:#4d3410}
+.admin-stats{background:#162522;color:#fffdf4}
+.admin-stats>div{border-color:rgba(255,255,255,.3)}
+.admin-stats strong{color:#e6f06b}
+.admin-stats span{color:#d9e3dc}
+.member-table-wrap{background:#fffdf4;border:2px solid #162522}
+th{background:#162522;color:#fffdf4;border-color:#162522}
+td{color:#34514a;border-bottom-color:rgba(22,37,34,.25)}
+td strong,.empty-state{color:#162522}
 /* Department workspaces */
 .department-page{background:var(--cream)}
 .department-page .site-header{border-bottom:1px solid var(--line)}
